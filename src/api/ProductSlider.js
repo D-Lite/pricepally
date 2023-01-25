@@ -10,7 +10,7 @@ export const getProducts = async () => {
                 cat_id:[18],
                 sub_cat_id:[],
                 offset:"0",
-                user_id:"",
+                user_id:"b7269cfb-198e-4782-a5f1-174b7b2e9bb7",
                 sort_by:"0"
             },
             {
@@ -21,21 +21,9 @@ export const getProducts = async () => {
                     },
             }
         )
-        // .then((response) => {
-        //     return response.blob();
-        // })
-        // .then((blob)=>{
-        //     var reader = new FileReader();
-        //     reader.readAsDataURL(blob);
-        //     reader.onloadend = function() {
-        //         var base64data = reader.result;
-        //         console.log(base64data);
-        //     }
-        // });
-        const data = await res?.body;
-        console.log(data);
+        const data = await res?.data;
 
-        // return data;
+        return data;
     } catch (err) {
         console.log(err);
     }
