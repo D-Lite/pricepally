@@ -1,6 +1,7 @@
 import '@/styles/globals.css'
 import 'bootstrap/dist/css/bootstrap.css';
 import Head from "next/head";
+import Script from "next/script";
 import "@fortawesome/fontawesome-svg-core/styles.css";
 import { useEffect } from "react";
 
@@ -20,10 +21,13 @@ export default function App({ Component, pageProps }) {
     <Head>
         <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css" rel="stylesheet" />
 
-        <script src="assets/js/jquery.min.js"></script>
-        <script src="assets/js/popper.min.js"></script>
-        <script src="assets/js/bootstrap.min.js"></script>
-        <script src="assets/js/multislider.js"></script>
+
+            <Script src="assets/js/jquery.min.js" />
+            <Script src="assets/js/popper.min.js" />
+            <Script src="assets/js/bootstrap.min.js" />
+            <Script src="assets/js/multislider.js" />
+
+
 
 
     </Head>
