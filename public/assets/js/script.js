@@ -2,42 +2,6 @@
 $('.sharing_preference').change(function() {
      var sharing_preference = $('input[name="delivery_type"]:checked').val();
     // console.log("minakshi");
-    if(sharing_preference == 'Morning'){
-        // var day = '<?php echo date('l', strtotime(" +2 day")); ?>';
-        // var dayHolyday = '<?php echo date('d', strtotime(" +2 day")); ?>';
-        // if(day == 'Sunday'){
-        //     var delivery_date = '<?php echo date('l, d-m-Y', strtotime(" +4 day")); ?>';
-        // }else if(day == 'Monday'){
-        //     var delivery_date = '<?php echo date('l, d-m-Y', strtotime(" +3 day")); ?>';
-        // }else{
-        //     var delivery_date = '<?php echo date('l, d-m-Y', strtotime(" +2 day")); ?>';
-        // }
-        // $('.delivery-date').html(delivery_date);
-        // if(day == 'Sunday'){
-        //     var delivery_date_val = '<?php echo date('Y-m-d H:i:s', strtotime(" +4 day")); ?>';
-        // }else if(day == 'Monday'){
-        //     var delivery_date_val = '<?php echo date('Y-m-d H:i:s', strtotime(" +3 day")); ?>';
-        // }else{
-        //     var delivery_date_val = '<?php echo date('Y-m-d H:i:s', strtotime(" +2 day")); ?>';
-        // }
-        // $('#delivery_date').val(delivery_date_val);
-    }else{
-        // var day = '<?php echo date('l', strtotime(" +1 day")); ?>';
-        
-        // var dayHolyday = '<?php echo date('d', strtotime(" +1 day")); ?>';
-        // if(day == 'Sunday'){
-        //     var delivery_date = '<?php echo date('l, d-m-Y', strtotime(" +2 day")); ?>';
-        // }else{
-        //     var delivery_date = '<?php echo date('l, d-m-Y', strtotime(" +1 day")); ?>';
-        // }
-        // $('.delivery-date').html(delivery_date);
-        // if(day == 'Sunday'){
-        //     var delivery_date_val = '<?php echo date('Y-m-d H:i:s', strtotime(" +2 day")); ?>';
-        // }else{
-        //     var delivery_date_val = '<?php echo date('Y-m-d H:i:s', strtotime(" +1 day")); ?>';
-        // }
-        // $('#delivery_date').val(delivery_date_val);
-    }
 });
 
 
@@ -68,35 +32,6 @@ $(document).ready(function() {
         $(".file-upload").click();
     });
 });
-
-
-
-// $(document).ready(function() {
-
-    
-//     var readURL = function(input) {
-//         if (input.files && input.files[0]) {
-//             var reader = new FileReader();
-
-//             reader.onload = function (e) {
-//                 $('.profile-pic').attr('src', e.target.result);
-//                 console.log('minakhsi')
-//             }
-    
-//             reader.readAsDataURL(input.files[0]);
-//         }
-//     }
-    
-
-//     $(".file-upload").on('change', function(){
-//         readURL(this);
-//     });
-    
-//     $(".upload-button").on('click', function() {
-//        $(".file-upload").click();
-//     });
-// });
-
 
 
 
@@ -268,45 +203,6 @@ $(function() {
         starClicked = true;
     })
 
-// cc
-    // $('.half').click(function() {
-    //     if (starClicked == true) {
-    //         setHalfStarState(this)
-    //     }
-    //     $(this).closest('.rating-main').find('.js-score').text($(this).data('value'));
-
-    //     $(this).closest('.rating-main').data('vote', $(this).data('value'));
-    //     calculateAverage()
-    //     console.log( $(this).data('value'));
-
-    // })
-
-    // $('.full').click(function() {
-    //     if (starClicked == true) {
-    //         setFullStarState(this)
-    //     }
-    //     $(this).closest('.rating-main').find('.js-score').text($(this).data('value'));
-
-    //     $(this).find('js-average').text(parseInt($(this).data('value')));
-
-    //     $(this).closest('.rating-main').data('vote', $(this).data('value'));
-    //     calculateAverage()
-
-    //     console.log(parseInt($(this).data('value')));
-    // })
-
-    // $('.half').hover(function() {
-    //     if (starClicked == false) {
-    //         //setHalfStarState(this)
-    //     }
-
-    // })
-
-    // $('.full').hover(function() {
-    //     if (starClicked == false) {
-    //        // setFullStarState(this)
-    //     }
-    // })// cc
 
 })
 /*------ MAIN-RATING-VIEW-LIST-JS-END -------*/

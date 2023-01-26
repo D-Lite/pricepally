@@ -1161,13 +1161,13 @@ header .search-dropdown{
   pointer-events: none;
 }
 .owl-carousel .owl-next:before {
-  content: '\f1df';
+  content: '\f054';
   display: inline-block;
   position: absolute;
   font-size: 24px;
   color: #4F4F4F;
   z-index: 9999;
-  font-family: 'Material Icons';
+  font-family: 'FontAwesome';
   text-align: center;
   right: 0;
   top: 50%;
@@ -1176,13 +1176,13 @@ header .search-dropdown{
   margin: 0 auto;
 }
 .owl-carousel .owl-prev:before {
-  content: '\f1e6';
+  content: '\f053';
   display: inline-block;
   position: absolute;
   font-size: 24px;
   color: #4F4F4F;
   z-index: 9999;
-  font-family: 'Material Icons';
+  font-family: 'FontAwesome';
   text-align: center;
   right: 0;
   top: 50%;

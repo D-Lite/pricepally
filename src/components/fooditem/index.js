@@ -36,7 +36,7 @@ function Fooditem() {
                             </ul>
                         </div>
                         <div className="col-md-12 col-lg-7">
-                            <form className="form-inline select-bg float-right">
+                            <form className="d-flex flex-row align-items-center justify-content-end flex-wrap select-bg">
                                 <div className="form-group mb-0">
                                     <select className="form-control border-right-0">
                                         <option>Categories</option>
